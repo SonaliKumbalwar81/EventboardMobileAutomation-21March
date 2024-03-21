@@ -13,6 +13,7 @@ public class BusyRoomPopupPage {
         this.driver = driver;
         this.testLog = testLog;
     }
+    //TEST
     public String verifyBusyRoomPopupOnAddEvent() {
         Allure.step("Verify Busy Room Pop up");
         return DriverActions.getText(BusyRoomPopupPageEnum.EVENT_PAGE_BUSY_ROOM_POP_UP_XPATH, driver);
