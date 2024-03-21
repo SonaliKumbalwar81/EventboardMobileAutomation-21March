@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Regression Test Suite">
+        <parameter name="platform" value="Ios"/>
+        <classes>
+            <class name="tests.MenuPageTest"/>
+            <class name="tests.ListPageTest"/>
+            <class name="tests.ReportAnIssueTest"/>
+            <class name="tests.RoomReservationUsingSeeOnMapTest"/>
+            <class name="tests.RoomReservationUsingSelectRoomTest"/>
+            <class name="tests.EventPageTest"/>
+            <class name="tests.UpcomingEventPageTest"/>
+            <class name="tests.MapPageNoBuildingConfiguredTest"/>
+            <class name="tests.MapPageNoFloorConfiguredTest"/>
+            <class name="tests.SettingTest"/>
+            <class name="tests.UpcomingEventPageTodayTomorowTest"/>
+            <class name="tests.DismissReservationFlowPageTest"/>
+            <class name="tests.BackButtonRoomInformationTest"/>
+            <class name="tests.MapPageTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
