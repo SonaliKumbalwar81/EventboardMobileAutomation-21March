@@ -11,6 +11,7 @@ public class BackButtonPage {
         this.driver = driver;
         this.testLog = testLog;
     }
+    //Test
     public void clickOnBackButton() {
         Allure.step("clicking On Back button  On Menu ");
         if (driver.getCapabilities().getCapability("platformName").toString().
